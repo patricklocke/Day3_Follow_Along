@@ -1,2 +1,2 @@
-# Day3_Follow_Along
-In Class practice for day 3 of Depot/U
+# Day3_Lab_DepotU
+Adding Bootstrap to practice Resume from Day 1 and Day 2 labs. 
