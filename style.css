@@ -16,7 +16,11 @@
   border: none;
   margin-top: 15px;
   float: left;
-  font-family: 'Slabo 27px', serif;
+  font-family: PLresume;
+}
+@font-face {
+  font-family: PLresume;
+  src: url(resumefont.ttf);
 }
 li {
   color: #FFFFFF;
@@ -53,6 +57,9 @@ p {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
 }
+.name {
+  padding-top: 35px;
+}
 .section-head {
   border-top: #03244d;
   border-bottom: #dd550c;
@@ -61,12 +68,15 @@ p {
   border-right: none;
   border-left: none;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
   font-size: 2em;
   text-transform: uppercase;
   margin-top: 15px;
   font-family: 'Slabo 27px', serif;
+}
+.anchor {
+  padding-top: 45px;
 }
 #name {
   margin-top: 30px;
