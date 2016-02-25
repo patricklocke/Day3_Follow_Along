@@ -7,6 +7,9 @@
   display: inline-block;
   margin-top: -10px;
 }
+.navbar-fixed-top .navbar-nav .open {
+  background-color: #FFFFFF;
+}
 #PL {
   text-transform: bold;
   color: #FFFFFF;
@@ -16,20 +19,20 @@
   border: none;
   margin-top: 15px;
   float: left;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Slabo 27px', serif;
 }
 li {
   color: #FFFFFF;
   display: inline;
-  padding-left: 5px;
-  font-size: 1em;
-  float: right;
+  font-size: 0.8em;
   text-decoration: none;
   background: none;
   box-shadow: none;
   border: none;
-  margin-top: 25px;
   text-transform: uppercase;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
 }
 li a {
   text-decoration: none;
@@ -42,13 +45,15 @@ li a {
 li a a:hover {
   color: #dd550c;
   text-decoration: none;
+  background: none;
 }
 .icon-bar {
   background-color: white;
+  margin-top: 12px;
 }
 p {
   padding: 15px 20px;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
 }
 .section-head {
@@ -64,6 +69,7 @@ p {
   font-size: 2em;
   text-transform: uppercase;
   margin-top: 15px;
+  font-family: 'Slabo 27px', serif;
 }
 #name {
   margin-top: 30px;
@@ -78,21 +84,25 @@ p {
   text-align: center;
   font-size: 1.6em;
   padding-bottom: 40px;
+  font-family: 'Slabo 27px', serif;
 }
 .position {
   padding-top: 25px;
   font-weight: bold;
   font-size: 1.25em;
   padding-left: 25px;
+  font-family: 'Quicksand', sans-serif;
 }
 .date {
   color: #03244d;
   text-transform: uppercase;
   font-style: italic;
   padding-left: 25px;
+  font-family: 'Quicksand', sans-serif;
 }
 .description {
   padding-left: 35px;
+  font-family: 'Quicksand', sans-serif;
 }
 .contact-box {
   background-color: #03244d;
@@ -112,15 +122,10 @@ p {
   padding-top: 20px;
   text-align: left;
 }
-input {
-  width: 275px;
-  border: none;
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  margin-bottom: 50px;
-  padding-left: 5px;
-  margin-top: 10px;
+.form-group {
+  font-family: 'Quicksand', sans-serif;
+  color: #FFFFFF;
+  padding: 5px 10px;
 }
 textarea {
   height: 195px;
@@ -133,9 +138,11 @@ textarea {
   margin-top: 5px;
   padding-top: 5px;
 }
-.inform {
-  margin-bottom: 5px;
-  background-color: #FFFFFF;
+.btn-block {
+  background-color: #dd550c;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 5px 5px;
 }
 .clear {
   clear: both;
@@ -150,6 +157,11 @@ textarea {
   margin-bottom: - 15px;
   padding-right: 15px;
   padding-left: 15px;
+}
+img {
+  height: 75px;
+  width: 75px;
+  margin: 25px;
 }
 body {
   padding-top: 70px;

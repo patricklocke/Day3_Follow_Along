@@ -9,6 +9,12 @@
     .border-radius(12px);
     display: inline-block;
     margin-top: -10px;
+
+.navbar-nav {
+    .open {
+        background-color:@accentcolor;
+    }
+}
          
 }
 #PL {
@@ -20,23 +26,24 @@
     border: none;
     margin-top: 15px;
     float: left;
-    font-family: 'Quicksand', sans-serif;
+    .titlefont;
 }
    
+
 
 
 li {
     color: @accentcolor;
     display: inline;
-    padding-left: 5px;
-    font-size: 1em;
-    float: right;
+    font-size: 0.8em;
     text-decoration: none;
     background: none;
     box-shadow: none;
     border: none;
-    margin-top: 25px;
     text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
     
     
     a {
@@ -50,17 +57,19 @@ li {
         a:hover {
             color: @hovercolor;
             text-decoration: none;
+            background: none;
        }
     }   
 }
 
 .icon-bar {
     background-color: white;
+    margin-top: 12px;
 }
 
 p {
     padding: 15px 20px;
-    font-family:  'Allerta Stencil', sans-serif;
+    .paragraphfont;
     font-size: 1.5em;
 }
 
@@ -79,6 +88,7 @@ p {
     font-size: 2em;
     text-transform: uppercase;
     margin-top: 15px;
+    .titlefont;
     
    
 }
@@ -89,14 +99,14 @@ p {
     text-align: center;
     font-weight: bold;
     font-size: 3em;
-    font-family: 'Slabo 27px', serif;
+    .titlefont;
 }
 
 #title {
     text-align: center;
     font-size: 1.6em;
     padding-bottom: 40px;
-   
+    .titlefont;
 }
 
 .position {
@@ -104,6 +114,7 @@ p {
    font-weight: bold;
    font-size: 1.25em;
    padding-left: 25px;
+   .paragraphfont;
 }
 
 .date {
@@ -111,10 +122,12 @@ p {
     text-transform: uppercase;
     font-style: italic;
     padding-left: 25px;
+    .paragraphfont
 }
 
 .description { 
     padding-left: 35px;
+    .paragraphfont
 }
 
 .contact-box {
@@ -136,31 +149,29 @@ p {
     
 }
 
-input {
-    width: 275px;
-    border: none;
-    .border-radius();
-    margin-bottom: 50px;
-    padding-left: 5px;
-    margin-top: 10px;
-    }
+.form-group {
+    .paragraphfont;
+    color: @accentcolor;
+    padding: 5px 10px;
+}
     
- textarea {
+textarea {
      height: 195px;
      width: 275px;
      .border-radius();
      border: none;
      padding-left: 5px;
      margin-top: 5px;
-     padding-top: 5px;
-     
- }
- 
-.inform  {
-   margin-bottom: 5px;
-   background-color: @accentcolor;
-  
+     padding-top: 5px;   
 }
+ 
+.btn-block {
+    background-color: @secondarycolor;
+    color: @accentcolor;
+    text-transform: uppercase;
+    padding: 5px 5px;
+}
+
 
 .clear {
     clear: both;
@@ -175,9 +186,13 @@ input {
     margin-top: 30px;
     margin-bottom: - 15px;
     padding-right: 15px;
-    padding-left: 15px;
-    
-    
+    padding-left: 15px;   
+}
+
+img {
+    height: 75px;
+    width: 75px;
+    margin: 25px;
 }
 
 body { 
