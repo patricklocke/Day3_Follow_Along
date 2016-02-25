@@ -7,9 +7,6 @@
   display: inline-block;
   margin-top: -10px;
 }
-.navbar-fixed-top .navbar-nav .open {
-  background-color: #FFFFFF;
-}
 #PL {
   text-transform: bold;
   color: #FFFFFF;
